@@ -4,8 +4,19 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+numpy = "*"
+pandas = "*"
+scipy = "*"
+matplotlib = "*"
+statsmodels = "*"
+scikit-learn = "*"
+seaborn = "*"
+keras = "*"
+tensorflow = "*"
+plotly = "*"
 
 [dev-packages]
+ipykernel = "*"
 
 [requires]
 python_version = "3.11"
